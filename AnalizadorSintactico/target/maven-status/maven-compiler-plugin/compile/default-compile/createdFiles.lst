@@ -1,0 +1,5 @@
+analisisLexico\AnalizadorLexico.class
+frontend\PanelBusquedaResultados.class
+tokens\Token.class
+analisisLexico\ErrorLexico.class
+tokens\TipoToken.class
