@@ -196,7 +196,7 @@ public class VistaPrincipal extends javax.swing.JFrame {
         jButtonCortar.setBackground(new java.awt.Color(51, 51, 51));
         jButtonCortar.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButtonCortar.setForeground(new java.awt.Color(255, 255, 255));
-        jButtonCortar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frontend/images/Nuevo.png"))); // NOI18N
+        jButtonCortar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frontend/images/Cortar.png"))); // NOI18N
         jButtonCortar.setText("Cortar  ");
         jButtonCortar.setBorder(null);
         jButtonCortar.addActionListener(new java.awt.event.ActionListener() {
@@ -208,7 +208,7 @@ public class VistaPrincipal extends javax.swing.JFrame {
 
         jButtonCopiar.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButtonCopiar.setForeground(new java.awt.Color(255, 255, 255));
-        jButtonCopiar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frontend/images/Nuevo.png"))); // NOI18N
+        jButtonCopiar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frontend/images/Copiar.png"))); // NOI18N
         jButtonCopiar.setText("Copiar  ");
         jButtonCopiar.setBorder(null);
         jButtonCopiar.setContentAreaFilled(false);
@@ -222,7 +222,7 @@ public class VistaPrincipal extends javax.swing.JFrame {
         jButtonPegar.setBackground(new java.awt.Color(51, 51, 51));
         jButtonPegar.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButtonPegar.setForeground(new java.awt.Color(255, 255, 255));
-        jButtonPegar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frontend/images/Nuevo.png"))); // NOI18N
+        jButtonPegar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frontend/images/Pegar.png"))); // NOI18N
         jButtonPegar.setText("Pegar  ");
         jButtonPegar.setBorder(null);
         jButtonPegar.addActionListener(new java.awt.event.ActionListener() {
@@ -235,7 +235,7 @@ public class VistaPrincipal extends javax.swing.JFrame {
         jButtonDeshacer.setBackground(new java.awt.Color(51, 51, 51));
         jButtonDeshacer.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButtonDeshacer.setForeground(new java.awt.Color(255, 255, 255));
-        jButtonDeshacer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frontend/images/Nuevo.png"))); // NOI18N
+        jButtonDeshacer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frontend/images/Deshacer.png"))); // NOI18N
         jButtonDeshacer.setText("Deshacer  ");
         jButtonDeshacer.setBorder(null);
         jButtonDeshacer.addActionListener(new java.awt.event.ActionListener() {
@@ -248,7 +248,7 @@ public class VistaPrincipal extends javax.swing.JFrame {
         jButtonRehacer.setBackground(new java.awt.Color(51, 51, 51));
         jButtonRehacer.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButtonRehacer.setForeground(new java.awt.Color(255, 255, 255));
-        jButtonRehacer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frontend/images/Nuevo.png"))); // NOI18N
+        jButtonRehacer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frontend/images/Rehacer.png"))); // NOI18N
         jButtonRehacer.setText("Rehacer  ");
         jButtonRehacer.setBorder(null);
         jButtonRehacer.addActionListener(new java.awt.event.ActionListener() {
@@ -261,7 +261,7 @@ public class VistaPrincipal extends javax.swing.JFrame {
         jButtonAnalizar.setBackground(new java.awt.Color(51, 51, 51));
         jButtonAnalizar.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButtonAnalizar.setForeground(new java.awt.Color(255, 255, 255));
-        jButtonAnalizar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frontend/images/Analizar.png"))); // NOI18N
+        jButtonAnalizar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frontend/images/Archivo.png"))); // NOI18N
         jButtonAnalizar.setText("Generar Archivo");
         jButtonAnalizar.setBorder(null);
         jButtonAnalizar.setPreferredSize(new java.awt.Dimension(72, 30));
@@ -272,14 +272,14 @@ public class VistaPrincipal extends javax.swing.JFrame {
         });
         jPanelBotones.add(jButtonAnalizar);
 
-        jPanelHeader.add(jPanelBotones, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 940, 50));
+        jPanelHeader.add(jPanelBotones, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 900, 50));
 
         jPanelBuscar.setBackground(new java.awt.Color(0, 153, 51));
         jPanelBuscar.setOpaque(false);
         jPanelBuscar.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jTextFieldBuscar.setPreferredSize(new java.awt.Dimension(100, 20));
-        jPanelBuscar.add(jTextFieldBuscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 10, 200, 30));
+        jPanelBuscar.add(jTextFieldBuscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 200, 30));
 
         jButtonBuscar.setBackground(new java.awt.Color(51, 51, 51));
         jButtonBuscar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/frontend/images/Buscar.png"))); // NOI18N
@@ -290,9 +290,9 @@ public class VistaPrincipal extends javax.swing.JFrame {
                 jButtonBuscarActionPerformed(evt);
             }
         });
-        jPanelBuscar.add(jButtonBuscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 0, 50, 50));
+        jPanelBuscar.add(jButtonBuscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 0, 50, 50));
 
-        jPanelHeader.add(jPanelBuscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 0, 340, 50));
+        jPanelHeader.add(jPanelBuscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 0, 280, 50));
 
         javax.swing.GroupLayout jPanelSuperiorLayout = new javax.swing.GroupLayout(jPanelSuperior);
         jPanelSuperior.setLayout(jPanelSuperiorLayout);

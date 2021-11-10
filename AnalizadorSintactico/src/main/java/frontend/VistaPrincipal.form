@@ -385,7 +385,7 @@
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="0" y="0" width="940" height="50"/>
+                      <AbsoluteConstraints x="0" y="0" width="900" height="50"/>
                     </Constraint>
                   </Constraints>
 
@@ -481,7 +481,7 @@
                           <Color blue="ff" green="ff" red="ff" type="rgb"/>
                         </Property>
                         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                          <Image iconType="3" name="/frontend/images/Nuevo.png"/>
+                          <Image iconType="3" name="/frontend/images/Cortar.png"/>
                         </Property>
                         <Property name="text" type="java.lang.String" value="Cortar  "/>
                         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -501,7 +501,7 @@
                           <Color blue="ff" green="ff" red="ff" type="rgb"/>
                         </Property>
                         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                          <Image iconType="3" name="/frontend/images/Nuevo.png"/>
+                          <Image iconType="3" name="/frontend/images/Copiar.png"/>
                         </Property>
                         <Property name="text" type="java.lang.String" value="Copiar  "/>
                         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -525,7 +525,7 @@
                           <Color blue="ff" green="ff" red="ff" type="rgb"/>
                         </Property>
                         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                          <Image iconType="3" name="/frontend/images/Nuevo.png"/>
+                          <Image iconType="3" name="/frontend/images/Pegar.png"/>
                         </Property>
                         <Property name="text" type="java.lang.String" value="Pegar  "/>
                         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -548,7 +548,7 @@
                           <Color blue="ff" green="ff" red="ff" type="rgb"/>
                         </Property>
                         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                          <Image iconType="3" name="/frontend/images/Nuevo.png"/>
+                          <Image iconType="3" name="/frontend/images/Deshacer.png"/>
                         </Property>
                         <Property name="text" type="java.lang.String" value="Deshacer  "/>
                         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -571,7 +571,7 @@
                           <Color blue="ff" green="ff" red="ff" type="rgb"/>
                         </Property>
                         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                          <Image iconType="3" name="/frontend/images/Nuevo.png"/>
+                          <Image iconType="3" name="/frontend/images/Rehacer.png"/>
                         </Property>
                         <Property name="text" type="java.lang.String" value="Rehacer  "/>
                         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -594,7 +594,7 @@
                           <Color blue="ff" green="ff" red="ff" type="rgb"/>
                         </Property>
                         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                          <Image iconType="3" name="/frontend/images/Analizar.png"/>
+                          <Image iconType="3" name="/frontend/images/Archivo.png"/>
                         </Property>
                         <Property name="text" type="java.lang.String" value="Generar Archivo"/>
                         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -619,7 +619,7 @@
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="880" y="0" width="340" height="50"/>
+                      <AbsoluteConstraints x="920" y="0" width="280" height="50"/>
                     </Constraint>
                   </Constraints>
 
@@ -635,7 +635,7 @@
                       </Properties>
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                          <AbsoluteConstraints x="80" y="10" width="200" height="30"/>
+                          <AbsoluteConstraints x="10" y="10" width="200" height="30"/>
                         </Constraint>
                       </Constraints>
                     </Component>
@@ -659,7 +659,7 @@
                       </Events>
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                          <AbsoluteConstraints x="290" y="0" width="50" height="50"/>
+                          <AbsoluteConstraints x="220" y="0" width="50" height="50"/>
                         </Constraint>
                       </Constraints>
                     </Component>
